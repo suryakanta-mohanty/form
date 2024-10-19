@@ -25,6 +25,7 @@
   background: var(--navbar-bg);
   padding: 8px 13%;
   position: fixed;
+
 }
 
 .navbar nav{
@@ -58,4 +59,19 @@
 
 .social a i:hover{
   transform: translateY(-8px);
+}
+
+.form_section{
+  padding-top: 100px;
+}
+
+.input_section label{
+  cursor: pointer;
+}
+
+.input_section label::after{
+  font-size: 0.8rem;
+  content: '*';
+  color: red;
+  margin-left: 1.2px;
 }
